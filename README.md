@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  shpilson blog
+  shpilson.com – мой блог
 </h1>
 
 <p align="center">
