@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
     siteTitleAlt: `shpilson blog - дневник с мыслями`,
     siteHeadline: `shpilson blog - дневник с мыслями от @shpilson`,
     siteUrl: `https://shpilson.com`,
-    siteDescription: `Мои мысли, идеи и приключения, запечатленные в словах.`,
+    siteDescription: `Мои мысли, идеи и приключения, запечатлённые в словах.`,
     siteLanguage: `ru`,
     author: `@shpilson`,
   },
