@@ -1,3 +1,4 @@
+/** @jsx jsx */
 import { jsx, Link } from "theme-ui"
 import useSiteMetadata from "../hooks/use-site-metadata"
 
@@ -20,7 +21,7 @@ const Footer = () => {
             }}
         >
             <div>
-                &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserv.
+                &copy; {new Date().getFullYear()} by {siteTitle}. Все права защищены.
             </div>
         </footer>
     )
