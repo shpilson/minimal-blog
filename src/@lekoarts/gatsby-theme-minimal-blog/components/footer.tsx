@@ -3,7 +3,8 @@ import { jsx, Link } from "theme-ui"
 import useSiteMetadata from "../hooks/use-site-metadata"
 
 const Footer = () => {
-    const { siteTitle } = useSiteMetadata()
+    const { author } = useSiteMetadata()
+    const { siteUrl } = useSiteMetadata()
 
     return (
         <footer
@@ -21,7 +22,10 @@ const Footer = () => {
             }}
         >
             <div>
-                &copy; {new Date().getFullYear()} by {siteTitle}. Все права защищены.
+                &copy; {new Date().getFullYear()}. Все права защищены.
+            </div>
+            <div>
+                Автор заметок <a href={siteUrl}>{author}</a>
             </div>
         </footer>
     )
