@@ -43,11 +43,11 @@ const Post: React.FC<React.PropsWithChildren<PageProps<MBPostProps>>> = ({ data:
             {post.tags && (
                 <React.Fragment>
                     {` — `}
-                    <ItemTags tags={post.tags} />
+                    # <ItemTags tags={post.tags} />
                 </React.Fragment>
             )}
             {post.timeToRead && ` — `}
-            {post.timeToRead && <span>{post.timeToRead} min read</span>}
+            Время чтения ⏱️ {post.timeToRead && <span>{post.timeToRead} мин.</span>}
         </p>
         <section
             sx={{
